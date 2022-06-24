@@ -1,0 +1,43 @@
+header{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  padding: 10px 10px;
+  background-image: linear-gradient(black, $primary-color);
+  .logo{
+    cursor: pointer;
+    img{
+      width: 150px;
+      height: 100%;
+    }
+  }
+  nav{
+    ul{
+      background-color: transparent;
+      .mb-nav-li{
+        margin-right: 20px;
+        border-bottom: 3px solid transparent;
+        &:hover{
+          border-bottom: 3px solid white;
+        }
+        .mb-nav-a{
+          color: white;
+        }
+      }
+      .mb-nav-li.active{
+        border-bottom: 3px solid white;
+      }
+    }
+  }
+  .inputs{
+    display: flex;
+    align-items: center;
+    & *{
+      margin: 0 5px;
+      background-color: transparent;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

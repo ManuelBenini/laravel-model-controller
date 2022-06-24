@@ -1,0 +1,95 @@
+body {
+  color: white;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  padding: 10px 10px;
+  background-image: linear-gradient(black, #141414);
+}
+
+header .logo {
+  cursor: pointer;
+}
+
+header .logo img {
+  width: 150px;
+  height: 100%;
+}
+
+header nav ul {
+  background-color: transparent;
+}
+
+header nav ul .mb-nav-li {
+  margin-right: 20px;
+  border-bottom: 3px solid transparent;
+}
+
+header nav ul .mb-nav-li:hover {
+  border-bottom: 3px solid white;
+}
+
+header nav ul .mb-nav-li .mb-nav-a {
+  color: white;
+}
+
+header nav ul .mb-nav-li.active {
+  border-bottom: 3px solid white;
+}
+
+header .inputs {
+  display: flex;
+  align-items: center;
+}
+
+header .inputs * {
+  margin: 0 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  background-color: #141414;
+  min-height: calc(100vh - 120px);
+}
+
+main .container {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .container .film-cards {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+main .container .film-cards .mb-card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-width: 20rem;
+}
+
+main .container h2,
+main .container h3,
+main .container h4,
+main .container h5,
+main .container h6,
+main .container p {
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  background-color: #141414;
+}
+

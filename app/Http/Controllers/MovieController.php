@@ -10,9 +10,8 @@ class MovieController extends Controller
 {
     public function index(){
 
-        // $films = Movie::all();
+        $films = Movie::all();
 
-        return view('movie');
-        // return view('movie', compact('films'));
+        return view('movie', compact('films'));
     }
 }

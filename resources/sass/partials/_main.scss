@@ -1,0 +1,25 @@
+main{
+    background-color: $primary-color;
+    min-height: calc(100vh - 120px);
+    .container{
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        .film-cards{
+            color: black;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            .mb-card{
+                margin-right: 20px;
+                margin-bottom: 20px;
+                max-width: 20rem;
+            }
+        }
+        h2,h3,h4,h5,h6,p{
+            margin-bottom: 50px;
+        }
+    }
+}
